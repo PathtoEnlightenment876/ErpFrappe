@@ -160,3 +160,16 @@ body {
 ::-webkit-scrollbar-thumb:hover {
     background: #4b5563;
 }
+
+@keyframes floatAvatar {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+}
+
+.avatar-float {
+    animation: floatAvatar 4s ease-in-out infinite;
+}
