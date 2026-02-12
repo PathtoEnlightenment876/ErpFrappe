@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bret</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="pt-20 p-4 md:p-12">
+
+    <nav class="glass-nav fixed top-0 left-0 w-full z-50">
+        <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+            <div class="text-2xl font-bold text-white tracking-tighter">
+                BRET<span class="text-gray-400">.dev</span>
+            </div>
+
+            <div class="hidden md:flex items-center space-x-1 font-medium text-sm">
+                <a href="#about" class="nav-link px-4 py-2">About</a>
+                <a href="#education" class="nav-link px-4 py-2">Education</a>
+                <a href="#stack" class="nav-link px-4 py-2">Tech Stack</a>
+                <a href="#stats" class="nav-link px-4 py-2">Stats</a>
+                <a href="#projects" class="nav-link px-4 py-2">Projects</a>
+                <a href="/login" class="nav-link px-4 py-2">Login</a>
+                <a href="#contact"
+                    class="btn-primary px-6 py-2.5 bg-gray-700 text-white rounded-lg hover:bg-gray-600 transition shadow-lg shadow-black/40 ml-4 font-medium">Hire
+                    Me</a>
+            </div>
+
+            <div class="md:hidden text-gray-400">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                </svg>
+            </div>
+        </div>
+    </nav>
+
+    <div class="max-w-4xl mx-auto">
+        <header class="text-center mb-24 mt-10">
+            <h1 class="text-6xl md:text-7xl font-extrabold bg-gradient-to-r from-white to-blue-300 bg-clip-text text-transparent mb-6">
+                Hi! I'm Bret A. Baa</h1>
+            <div class="flex justify-center mb-6">
+                <img src="https://readme-typing-svg.herokuapp.com?font=Courier+Code&size=20&duration=4000&pause=500&lines=Full+Stack+Developer;Building+with+Purpose&center=true&width=500&height=50"
+                    alt="Typing SVG">
+            </div>
+            <div class="glass-card p-6 flex flex-col items-center gap-4">
+                <img src="img/avataaars-removebg-preview.png" width="180" height="180" alt="Avatar" class="rounded-full">
+                <code
+                    class="text-sm md:text-base text-blue-300 text-center">Welcome! I'm passionate about building web applications</code>
+            </div>
+        </header>
+
+        <!-- Building Web Solutions Motion Graphics Section -->
+        <section class="mb-24">
+            <div class="glass-card p-12 overflow-hidden rounded-2xl">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                    <!-- Left: Motion Graphics SVG -->
+                    <div class="flex justify-center">
+                        <svg viewBox="0 0 400 400" class="w-full max-w-sm h-auto" xmlns="http://www.w3.org/2000/svg">
+                            <!-- Background -->
+                            <rect width="400" height="400" fill="transparent" />
+
+                            <!-- Central animated element -->
+                            <circle cx="200" cy="200" r="100" fill="none" stroke="#606060" stroke-width="2"
+                                opacity="0.3" />
+                            <circle cx="200" cy="200" r="80" fill="none" stroke="#707070" stroke-width="1.5"
+                                opacity="0.5" />
+
+                            <!-- Animated orbiting brackets -->
+                            <g class="avatar-ring" style="transform-origin: 200px 200px">
+                                <text x="300" y="205" font-family="monospace" font-size="32" fill="#808080"
+                                    text-anchor="middle" font-weight="bold">&lt;</text>
+                                <text x="100" y="205" font-family="monospace" font-size="32" fill="#808080"
+                                    text-anchor="middle" font-weight="bold">&gt;</text>
+                            </g>
+
+                            <!-- Center core -->
+                            <circle cx="200" cy="200" r="15" fill="#707070" class="avatar-glow" />
+                            <circle cx="200" cy="200" r="8" fill="#808080" />
+
+                            <!-- Floating API box -->
+                            <g class="avatar-container">
+                                <rect x="40" y="50" width="120" height="80" rx="6" fill="#2a2a3e" stroke="#606060"
+                                    stroke-width="1.5" />
+                                <text x="100" y="75" font-family="Arial" font-size="14" fill="#b0b0b0"
+                                    text-anchor="middle" font-weight="bold">API</text>
+                                <line x1="50" y1="85" x2="150" y2="85" stroke="#707070" stroke-width="0.5" />
+                                <line x1="50" y1="95" x2="140" y2="95" stroke="#707070" stroke-width="0.5" />
+                                <line x1="50" y1="105" x2="135" y2="105" stroke="#707070" stroke-width="0.5" />
+                                <line x1="50" y1="115" x2="120" y2="115" stroke="#707070" stroke-width="0.5" />
+                            </g>
+
+                            <!-- Floating Database box -->
+                            <g class="avatar-container" style="animation-delay: 1s">
+                                <rect x="240" y="280" width="120" height="80" rx="6" fill="#2a2a3e" stroke="#606060"
+                                    stroke-width="1.5" />
+                                <text x="300" y="305" font-family="Arial" font-size="14" fill="#b0b0b0"
+                                    text-anchor="middle" font-weight="bold">DB</text>
+                                <line x1="250" y1="315" x2="350" y2="315" stroke="#707070" stroke-width="0.5" />
+                                <line x1="250" y1="325" x2="340" y2="325" stroke="#707070" stroke-width="0.5" />
+                                <line x1="250" y1="335" x2="345" y2="335" stroke="#707070" stroke-width="0.5" />
+                            </g>
+
+                            <!-- Floating Frontend box -->
+                            <g class="avatar-container" style="animation-delay: 0.5s">
+                                <rect x="240" y="50" width="110" height="80" rx="6" fill="#2a2a3e" stroke="#606060"
+                                    stroke-width="1.5" />
+                                <text x="295" y="75" font-family="Arial" font-size="13" fill="#b0b0b0"
+                                    text-anchor="middle" font-weight="bold">Frontend</text>
+                                <line x1="250" y1="85" x2="345" y2="85" stroke="#707070" stroke-width="0.5" />
+                                <line x1="250" y1="95" x2="335" y2="95" stroke="#707070" stroke-width="0.5" />
+                                <line x1="250" y1="105" x2="340" y2="105" stroke="#707070" stroke-width="0.5" />
+                            </g>
+
+                            <!-- Floating Backend box -->
+                            <g class="avatar-container" style="animation-delay: 0.75s">
+                                <rect x="50" y="280" width="110" height="80" rx="6" fill="#2a2a3e" stroke="#606060"
+                                    stroke-width="1.5" />
+                                <text x="105" y="305" font-family="Arial" font-size="13" fill="#b0b0b0"
+                                    text-anchor="middle" font-weight="bold">Backend</text>
+                                <line x1="60" y1="315" x2="155" y2="315" stroke="#707070" stroke-width="0.5" />
+                                <line x1="60" y1="325" x2="145" y2="325" stroke="#707070" stroke-width="0.5" />
+                                <line x1="60" y1="335" x2="150" y2="335" stroke="#707070" stroke-width="0.5" />
+                            </g>
+
+                            <!-- Connection lines -->
+                            <line x1="160" y1="85" x2="200" y2="150" stroke="#707070" stroke-width="1" opacity="0.4"
+                                stroke-dasharray="5,5" />
+                            <line x1="240" y1="85" x2="200" y2="150" stroke="#707070" stroke-width="1" opacity="0.4"
+                                stroke-dasharray="5,5" />
+                            <line x1="160" y1="310" x2="200" y2="250" stroke="#707070" stroke-width="1" opacity="0.4"
+                                stroke-dasharray="5,5" />
+                            <line x1="240" y1="310" x2="200" y2="250" stroke="#707070" stroke-width="1" opacity="0.4"
+                                stroke-dasharray="5,5" />
+                        </svg>
+                    </div>
+
+                    <!-- Right: Text Content -->
+                    <div>
+                        <h3 class="text-3xl font-bold text-white mb-5">Building Web Solutions</h3>
+                        <p class="text-gray-300 mb-6 leading-relaxed text-lg">I create complete web applications using
+                            modern technologies. From backend systems with Laravel and PHP to frontend interfaces with
+                            HTML, CSS, and JavaScript, I develop solutions that work seamlessly across all platforms.
+                        </p>
+                        <ul class="space-y-3 text-gray-300">
+                            <li class="flex items-center gap-3">
+                                <span class="w-2.5 h-2.5 bg-gray-400 rounded-full"></span>
+                                <span class="font-medium">RESTful API Design & Development</span>
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <span class="w-2.5 h-2.5 bg-gray-400 rounded-full"></span>
+                                <span class="font-medium">Database Architecture & Optimization</span>
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <span class="w-2.5 h-2.5 bg-gray-400 rounded-full"></span>
+                                <span class="font-medium">Responsive Web Design</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="mb-24 scroll-mt-24">
+            <h2 class="section-title text-3xl font-semibold text-white mb-8 flex items-center">
+
+                <span class="mr-4 text-2xl">🚀</span> About Me
+            </h2>
+
+            <p class="text-lg leading-relaxed text-gray-300">
+                I'm a dedicated web developer with expertise in building scalable web applications. I love writing
+                clean, efficient code and learning new technologies. Always excited to collaborate on projects and
+                contribute to the open-source community.
+            </p>
+        </section>
+
+        <section id="education" class="mb-24 scroll-mt-24">
+            <h2 class="section-title text-3xl font-semibold text-white mb-12 inline-block">🎓 Education</h2>
+            <div class="space-y-5">
+                <!-- College -->
+                <div class="glass-card p-7 border-l-4 border-gray-500 hover:border-gray-400">
+                    <div class="flex items-start gap-4 justify-between mb-3">
+                        <div class="flex items-center gap-4 flex-1">
+                            <div
+                                class="w-16 h-16 rounded-circle mt-4  flex items-center justify-center text-white font-bold text-sm">
+                                <img src="img/1000004343.png" alt="logo"></div>
+                            <div>
+                                <h3 class="text-lg font-bold text-white">Bestlink College of the Philippines</h3>
+                                <p class="text-gray-300 font-medium text-sm">College</p>
+                            </div>
+                        </div>
+                        <span
+                            class="text-sm text-gray-400 bg-gray-800/50 px-4 py-1.5 rounded-full font-medium whitespace-nowrap">2022
+                            - Present</span>
+                    </div>
+                </div>
+
+                <!-- Senior High School -->
+                <div class="glass-card p-7 border-l-4 border-gray-500 hover:border-gray-400">
+                    <div class="flex items-start gap-4 justify-between mb-3">
+                        <div class="flex items-center gap-4 flex-1">
+                            <div
+                                class="w-16 h-16 rounded-circle mt-4  flex items-center justify-center text-white font-bold text-xs">
+                                <img src="img/images.png" alt="jfbshs-logo"></div>
+                            <div>
+                                <h3 class="text-lg font-bold text-white">Judge Feliciano Belmonte Sr. High School</h3>
+                                <p class="text-gray-300 font-medium text-sm">Senior High School</p>
+                            </div>
+                        </div>
+                        <span
+                            class="text-sm text-gray-400 bg-gray-800/50 px-4 py-1.5 rounded-full font-medium whitespace-nowrap">2018
+                            - 2019</span>
+                    </div>
+                </div>
+
+                <!-- Junior High School -->
+                <div class="glass-card p-7 border-l-4 border-gray-500 hover:border-gray-400">
+                    <div class="flex items-start gap-4 justify-between mb-3">
+                        <div class="flex items-center gap-4 flex-1">
+                            <div
+                                class="w-16 h-16 rounded-circle mt-4  flex items-center justify-center text-white font-bold text-sm">
+                                <img src="img/images.png" alt="jfbshs-logo"></div>
+                            <div>
+                                <h3 class="text-lg font-bold text-white">Judge Feliciano Belmonte Sr. High School</h3>
+                                <p class="text-gray-300 font-medium text-sm">Junior High School</p>
+                            </div>
+                        </div>
+                        <span
+                            class="text-sm text-gray-400 bg-gray-800/50 px-4 py-1.5 rounded-full font-medium whitespace-nowrap">2014
+                            - 2017</span>
+                    </div>
+                </div>
+
+                <!-- Elementary -->
+                <div class="glass-card p-7 border-l-4 border-gray-500 hover:border-gray-400">
+                    <div class="flex items-start gap-4 justify-between mb-3">
+                        <div class="flex items-center gap-4 flex-1">
+                           <div
+                                class="w-16 h-16 rounded-circle mt-4  flex items-center justify-center text-white font-bold text-xs">
+                                <img src="img/images (1).jpg" alt="obes-logo"></div>
+                            <div>
+                                <h3 class="text-lg font-bold text-white">Old Balara Elementary School Annex</h3>
+                                <p class="text-gray-300 font-medium text-sm">Elementary School</p>
+                            </div>
+                        </div>
+                        <span
+                            class="text-sm text-gray-400 bg-gray-800/50 px-4 py-1.5 rounded-full font-medium whitespace-nowrap">2006
+                            - 2012</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="stack" class="mb-20 scroll-mt-24">
+            <h2 class="section-title text-2xl font-semibold text-gray-300 mb-12 inline-block">💻 Tech Stack</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="glass-card p-6">
+                    <h3 class="text-gray-400 mb-6 uppercase text-xs font-semibold tracking-wide">Frontend</h3>
+                    <div class="flex gap-6 flex-wrap items-center">
+                        <div class="text-center">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                                alt="HTML5" class="w-12 h-12 mb-2">
+                            <p class="text-gray-400 text-xs">HTML5</p>
+                        </div>
+                        <div class="text-center">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                                alt="CSS3" class="w-12 h-12 mb-2">
+                            <p class="text-gray-400 text-xs">CSS3</p>
+                        </div>
+                        <div class="text-center">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+                                alt="Bootstrap" class="w-12 h-12 mb-2">
+                            <p class="text-gray-400 text-xs">Bootstrap</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="glass-card p-6">
+                    <h3 class="text-gray-400 mb-6 uppercase text-xs font-semibold tracking-wide">Backend</h3>
+                    <div class="flex gap-6 flex-wrap items-center">
+                        <div class="text-center">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP"
+                                class="w-12 h-12 mb-2">
+                            <p class="text-gray-400 text-xs">PHP</p>
+                        </div>
+                        <div class="text-center">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg"
+                                alt="Laravel" class="w-12 h-12 mb-2">
+                            <p class="text-gray-400 text-xs">Laravel</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="stats" class="mb-20 scroll-mt-24 text-center">
+            <h2 class="text-3xl font-semibold text-white mb-12">📊 GitHub Stats</h2>
+            <div class="space-y-8">
+                <!-- GitHub Profile Card -->
+                <div class="glass-card p-8">
+                    <div class="text-center">
+                        <h3 class="text-xl font-bold text-blue-400 mb-4">
+                            <a href="https://github.com/PathtoEnlightenment876" target="_blank"
+                                class="hover:text-blue-300 transition">PathtoEnlightenment876 (BRET)</a>
+                        </h3>
+                        <p class="text-gray-300 mb-6">Check out my GitHub profile for more projects and contributions
+                        </p>
+                        <a href="https://github.com/PathtoEnlightenment876" target="_blank"
+                            class="inline-flex items-center gap-2 px-6 py-3 bg-gray-700 text-white rounded-lg hover:bg-gray-600 transition font-medium shadow-lg">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor"
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v 3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                            </svg>
+                            View GitHub Profile
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Stats Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="glass-card p-6">
+                        <div class="text-3xl font-bold text-blue-400 mb-2">156</div>
+                        <p class="text-gray-300">Contributions</p>
+                        <p class="text-xs text-gray-500 mt-2">in the last year</p>
+                    </div>
+                    <div class="glass-card p-6">
+                        <div class="text-3xl font-bold text-purple-400 mb-2">PHP</div>
+                        <p class="text-gray-300">Primary Language</p>
+                        <p class="text-xs text-gray-500 mt-2">Backend</p>
+                    </div>
+                    <div class="glass-card p-6">
+                        <div class="text-3xl font-bold text-green-400 mb-2">MySQL</div>
+                        <p class="text-gray-300">Database</p>
+                        <p class="text-xs text-gray-500 mt-2">Database Design</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="mb-20 scroll-mt-24">
+            <h2 class="section-title text-3xl font-semibold text-white mb-12 inline-block">📁 Featured Projects</h2>
+            <div class="space-y-6">
+                <!-- CRAD System Project -->
+                <div class="glass-card p-6">
+                    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
+                        <div class="flex-1">
+                            <h3 class="text-xl font-bold text-blue-400 mb-2">
+                                <a href="https://github.com/yourusername/crad-system" target="_blank"
+                                    class="hover:text-blue-300 transition">School Management System 3: CRAD (CENTER FOR RESEARCH AND DEVELOPMENT)</a>
+                            </h3>
+                            <p class="text-gray-300 mb-4">Smart Event Scheduling & Conflict Detection System for
+                                Bestlink College of the Philippines. Automates research lifecycle with intelligent
+                                conflict-detection algorithm for defense schedules.</p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="px-3 py-1 bg-blue-900/30 text-blue-300 text-xs rounded-full">Laravel
+                                    10</span>
+                                <span class="px-3 py-1 bg-purple-900/30 text-purple-300 text-xs rounded-full">MySQL
+                                    8.0</span>
+                                <span class="px-3 py-1 bg-green-900/30 text-green-300 text-xs rounded-full">PHP</span>
+                                <span
+                                    class="px-3 py-1 bg-orange-900/30 text-orange-300 text-xs rounded-full">JavaScript</span>
+                            </div>
+                            <div class="text-sm text-gray-500">
+                                <p>🎓 <strong>Bestlink College of the Philippines</strong> • Cluster 7 Project</p>
+                                <p class="mt-1">👨‍💻 <strong>Role:</strong> Lead Programmer</p>
+                            </div>
+                        </div>
+                        <div class="md:text-right">
+                            <a href="https://github.com/yourusername/crad-system" target="_blank"
+                                class="inline-flex items-center gap-2 px-4 py-2 bg-gray-700 text-white rounded-lg hover:bg-gray-600 transition text-sm font-medium shadow-lg">
+                                View on GitHub
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="currentColor"
+                                    viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v 3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Additional Project Placeholder -->
+                <div class="glass-card p-6">
+                    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
+                        <div class="flex-1">
+                            <h3 class="text-xl font-bold text-blue-400 mb-2">
+                                <a href="#" class="hover:text-blue-300 transition">More Projects Coming Soon</a>
+                            </h3>
+                            <p class="text-gray-300 mb-4">Working on exciting new projects. Stay tuned for updates!</p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="px-3 py-1 bg-gray-800 text-gray-400 text-xs rounded-full">In
+                                    Development</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer id="contact" class="text-center mt-32 pb-20 scroll-mt-24">
+            <h2 class="text-3xl font-bold text-white mb-4">Let's Connect! ⭐</h2>
+            <p class="text-gray-400 mb-8 max-w-md mx-auto">Feel free to reach out if you're looking for a developer, a
+                collaborator, or just want to say hi.</p>
+            <div class="flex justify-center gap-8 mb-12">
+                <a href="mailto:your.email@example.com" class="hover:text-white">Email</a>
+                <a href="#" class="hover:text-white">LinkedIn</a>
+                <a href="#" class="hover:text-white">GitHub</a>
+            </div>
+            <img src="https://visitor-badge.laobi.icu/badge?page_id=YOUR_USERNAME.YOUR_USERNAME" alt="Visitors"
+                class="mx-auto">
+        </footer>
+    </div>
+
+</body>
+<script> window.chtlConfig = { chatbotId: "7334637871" } </script>
+<script async data-id="7334637871" id="chtl-script" type="text/javascript"
+    src="https://chatling.ai/js/embed.js"></script>
+
+</html>
