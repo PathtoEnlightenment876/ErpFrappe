@@ -4,7 +4,7 @@ app_publisher = "Bret"
 app_description = "Portfolio"
 app_email = "thorkell027@gmail.com"
 app_license = "mit"
-
+#app_include_css = "/assets/public/css/style.css"
 # Apps
 # ------------------
 
